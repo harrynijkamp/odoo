@@ -6,4 +6,7 @@
                 src="../static/src/js/sample.js"/>
         </xpath>
     </template-->
+    <script>
+      console.log("yes!!");
+    </script>
 </odoo>
