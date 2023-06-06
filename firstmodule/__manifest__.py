@@ -15,4 +15,12 @@
     'installable': True,
     'application': False,
     'auto__install': False,
-}
+    
+    'assets': {
+        'web.assets_common': [
+            'web/static/src/js/sample.js',
+            
+        ],
+        
+    },
+},
