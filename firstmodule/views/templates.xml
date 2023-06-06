@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="web_assets_backend_ext" inherit_id="web.assets_backend">
+    <template id="assets_backend" inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
-            <script type="text/javascript" src="/firstmodule/static/src/js/sample.js"></script>
+            <script type="text/javascript" src="/firstmodule/static/src/js/sample.js"/>
         </xpath>
     </template>
+
 </odoo>
