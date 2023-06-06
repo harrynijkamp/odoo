@@ -5,6 +5,5 @@
             <script type="text-javascript"
                 src="../static/src/js/sample.js"/>
         </xpath>
-    <template>
-
+    <template/>
 </odoo>
