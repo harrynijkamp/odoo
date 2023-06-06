@@ -3,7 +3,7 @@
     <template id="web_assets_backend_ext" inherit_id="web.assets.backend">
         <xpath expr="." position="inside">
             <script type="text-javascript"
-                src="../static/src/js/sample.js"/>
+                src="/firstmodule/static/src/js/sample.js"/>
         </xpath>
     </template>
 </odoo>
