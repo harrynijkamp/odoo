@@ -7,9 +7,9 @@
         <field name="view_mode">tree, form</field>
     </record> 
 
-    <menuitem id="menu_hospital_patients" 
+    <menuitem id="menu_patients" 
         name="Patients" 
-        parent="menu_hospital_root" 
+        parent="menu_hospital_operations" 
         action="action_hospital_patient"
         sequence="10"/>
 </odoo>
