@@ -9,7 +9,7 @@
         'post_init_hook': "create_student",
         'depends': ['base', 'contacts'],
         'data': [
-            'security/ir.model.access.csv',
+            # 'security/ir.model.access.csv',
             'views/school.xml',
         ],
 
