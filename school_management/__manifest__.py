@@ -6,7 +6,7 @@
         'website': "www.youcompany",
         'category': "Tools",
         'version': '16.0.1.0.0',
-        'post_init_hook': "create_student",
+        #'post_init_hook': "create_student",
         'depends': ['base', 'contacts'],
         'data': [
             # 'security/ir.model.access.csv',
