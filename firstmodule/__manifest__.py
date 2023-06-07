@@ -15,9 +15,4 @@
     'installable': True,
     'application': False,
     'auto__install': False,
-    "assets": {
-        "web.assets_backend": [
-            
-        ]
-    }
 },
