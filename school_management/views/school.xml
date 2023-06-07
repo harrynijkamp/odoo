@@ -3,7 +3,7 @@
         <field name="name">school.student.form</field>
         <field name="model">school.student</field>
         <field name="arch" type="xml">
-            <form string="student">
+            <!--form string="student">
                 <sheet>
                     <group>
                         <group>
@@ -13,11 +13,11 @@
                         </group>
                     </group>
                 </sheet>
-            </form>
+            </form-->
         </field>
     </record>
 
-    <record id="action_student" model="ir.actions.act_window">
+    <!--record id="action_student" model="ir.actions.act_window">
         <field name="name">Student</field>
         <field name="res_model">school.student</field>
         <field name="view_mode">kanban,tree,form</field>
@@ -26,7 +26,7 @@
                 Create School details
             </p>
         </field>
-    </record>
+    </record-->
 
     <menuitem id="school_menu" name="School"/>
     <menuitem id="school_exams_menu" parent="school_menu" name="School" action="action_student" sequence="6"/>
