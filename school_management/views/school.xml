@@ -1,5 +1,5 @@
 <odoo>
-    <record id="schoo._class_form_view" model="ir.ui.view">
+    <record id="school_class_form_view" model="ir.ui.view">
         <field name="name">school.student.form</field>
         <field name="model">school.student</field>
         <field name="arch" type="xml">
