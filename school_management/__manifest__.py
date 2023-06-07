@@ -16,7 +16,7 @@
 
         'assets': {
             'web.assets_backend': [
-                '/school_management/static/src/js/test.js'
+                "school_management/static/src/js/test.js"
             ],
         },
         'demo': [],
