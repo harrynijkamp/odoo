@@ -6,4 +6,10 @@
         <field name="res_model">hospital.patient</field>
         <field name="view_mode">tree, form</field>
     </record> 
+
+    <menuitem id="menu_hospital_patients" 
+        name="Patients" 
+        parent="menu_hospital_root" 
+        action="action_hospital_patient"
+        sequence="10"/>
 </odoo>
