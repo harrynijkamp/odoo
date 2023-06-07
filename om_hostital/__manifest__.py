@@ -11,7 +11,8 @@
     'category': 'Customization',
     'depends': ['base'],
     'data': [
-
+        'views/menu.xml',
+        'views/patient.xml',
     ],
     'application': True,
 }
