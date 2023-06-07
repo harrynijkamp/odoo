@@ -9,7 +9,16 @@
 
         'depends': ['base'],
 
-        
+        'data': [
+            # 'security/ir.model.access.csv',
+            'views/school.xml',
+        ],
+
+        'assets': {
+            'web.assets_backend': [
+                'school_management/static/src/js/test.js'
+            ],
+        },
         'demo': [],
         'images': ['static/description/icon.png'],
         'installable': True,
