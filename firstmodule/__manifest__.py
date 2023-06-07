@@ -17,7 +17,7 @@
     'auto__install': False,
     "assets": {
         "web.assets_backend": [
-            "firstmodule/static/src/js/sample.js"
+            
         ]
     }
 },
