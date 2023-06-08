@@ -14,7 +14,7 @@ class HospitalPatient(models.Model):
 
     capitalized_name = fields.Char(string='Capitalized Name', compute='_compute_capitalized_name', store=True)
 
-    @api.contraints('is_child', 'age')
+    @api.contrains('is_child', 'age')
     def check_child_age(self):
         for rec in self:
             if rec.is_child and rec.age == 0:
