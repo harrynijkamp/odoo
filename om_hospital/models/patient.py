@@ -1,4 +1,4 @@
-from odoo import api, fields, models
+from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError 
 
 class HospitalPatient(models.Model):
@@ -18,7 +18,7 @@ class HospitalPatient(models.Model):
     def check_child_age(self):
         for rec in self:
             if rec.is_child and rec.age == 0:
-                raise ValidationError(("Age has to be recorded !"))
+                raise ValidationError(_("Age has to be recorded !"))
 
     @api.depends('name')
     def _compute_capitalized_name(self):
