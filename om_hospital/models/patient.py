@@ -11,7 +11,7 @@ class HospitalPatient(models.Model):
     notes = fields.Text(string='Notes')
     gender = fields.Selection([('male', 'Male'), ('female', 'Female'), ('others', 'Others')], string='Gender', tracking=True)
 
-    @api.onchange_age('age')
+    @api.onchange('age')
     def _onchange_age(self):
         if self.age <= 10:
             self.is_child = True
