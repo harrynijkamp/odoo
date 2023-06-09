@@ -9,7 +9,7 @@
     'company': 'Metafoor Media BV',
     'website': 'www.metafoormedia.nl',
     'category': 'Customization',
-    'depends': ['base', 'mail'],
+    'depends': ['base', 'sale', 'mail'],
     'data': [
         'security/ir.model.access.csv',
         'views/menu.xml',
