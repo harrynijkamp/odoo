@@ -1,1 +1,2 @@
-from . import patient, sale_order
+from . import patient
+from . import sale_order
