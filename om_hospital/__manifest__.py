@@ -14,7 +14,7 @@
         'security/ir.model.access.csv',
         'views/menu.xml',
         'views/patient.xml',
-        'views/sales_order.xml',
+        'views/sale_order.xml',
     ],
     'application': True,
 }
