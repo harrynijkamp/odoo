@@ -1,6 +1,6 @@
 from odoo import models, fields
 
-class SalesOrde (models.Model):
-    _inherit = "sales.order"
+class SaleOrde (models.Model):
+    _inherit = "sale.order"
 
     short_note = fields.Char(string='Short Note')
