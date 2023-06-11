@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-"metafoormedia_video.access_metafoormedia_video","access_metafoormedia_video","metafoormedia_video.model_metafoormedia_video","base.group_user",1,1,1,1
+"metafoormedia_video.access_metafoormedia_video","access_metafoormedia_video","mm_video.model_metafoormedia_video","base.group_user",1,1,1,1
