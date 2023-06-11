@@ -10,18 +10,19 @@
     'website': 'www.metafoormedia.nl',
     'category': 'Customization',
     'depends': ['base', 'project', 'mail'],
-    'data': [
-        'security/ir.model.access.csv',
-        'views/menu.xml',
-        'views/video.xml',
-    ],
     'assets': {
         'web.assets_backend': [
-            'mm_video/static/src/script.js',
+            'mm_video/static/src/js/script.js',
         ],
         'web.assets_common': [
             
         ],
     },
+    'data': [
+        'security/ir.model.access.csv',
+        'views/menu.xml',
+        'views/video.xml',
+    ],
+    
     'application': True,
 }
