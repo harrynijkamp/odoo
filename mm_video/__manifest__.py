@@ -24,9 +24,6 @@
         'web.assets_common': [
             
         ],
-        'web.qunit_suite_tests': [
-            
-        ],
     },
 
     'application': True,
