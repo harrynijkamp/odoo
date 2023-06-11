@@ -14,10 +14,9 @@
                             <field name="vimeo_link"/>
                         </group>
                         <group>
-                            <field name="project_id"/>
+                            <!--field name="project_id"/-->>
                         </group>
                     </group>
-                    
                 </sheet>
                 <div class="oe_chatter">
                     <field name="message_follower_ids"/>
