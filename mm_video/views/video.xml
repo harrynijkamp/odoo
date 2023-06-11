@@ -14,7 +14,7 @@
                             <field name="vimeo_link"/>
                         </group>
                         <group>
-                            <!--field name="project_id"/-->>
+                            <field name="project_id"/>
                         </group>
                     </group>
                 </sheet>
