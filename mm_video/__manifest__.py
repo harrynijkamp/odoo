@@ -17,7 +17,7 @@
     ],
     'assets': {
         'web.assets_backend': [
-            'mm_video/static/src/script.js',
+            'web/static/src/script.js',
         ],
         'web.assets_common': [
             
