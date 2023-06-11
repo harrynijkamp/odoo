@@ -14,7 +14,6 @@
         'security/ir.model.access.csv',
         'views/menu.xml',
         'views/video.xml',
-        
     ],
     'application': True,
 }
