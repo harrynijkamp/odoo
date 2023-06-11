@@ -22,7 +22,7 @@
             
         ],
         'web.assets_common': [
-            
+            'mm_video/static/src/js/scripts.js',
         ],
         'web.qunit_suite_tests': [
             
