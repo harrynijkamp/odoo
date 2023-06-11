@@ -17,7 +17,7 @@
     ],
     'assets': {
         'web.assets_backend': [
-            'web/static/src/script.js',
+            '/static/src/script.js',
         ],
         'web.assets_common': [
             
