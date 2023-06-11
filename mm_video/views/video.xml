@@ -14,7 +14,7 @@
                             <field name="vimeo_link"/>
                         </group>
                         <group>
-                            <field name="project_id"/>
+                            <field name="project_id" options="{no_create=True}"/>
                         </group>
                     </group>
                 </sheet>
@@ -25,6 +25,12 @@
             </form>
         </field>
     </record>
+
+    <template id="web_assets_backend_ext" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/mm_video/static/src/js/scripts.js"/>
+        </xpath>
+    </template>
 
     <record id="view_metafoormedia_video_tree" model="ir.ui.view">
         <field name="name">metafoormedia.video.tree</field>
