@@ -26,12 +26,6 @@
         </field>
     </record>
 
-    <template id="web_assets_backend_ext" inherit_id="web.assets_backend">
-        <xpath expr="." position="inside">
-            <script type="text/javascript" src="/mm_video/static/src/js/scripts.js"/>
-        </xpath>
-    </template>
-
     <record id="view_metafoormedia_video_tree" model="ir.ui.view">
         <field name="name">metafoormedia.video.tree</field>
         <field name="model">metafoormedia.video</field>

@@ -16,5 +16,18 @@
         'views/video.xml',
         
     ],
+
+    'assets': {
+        'web.assets_backend': [
+            
+        ],
+        'web.assets_common': [
+            
+        ],
+        'web.qunit_suite_tests': [
+            
+        ],
+    },
+
     'application': True,
 }
