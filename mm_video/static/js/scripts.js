@@ -1,4 +1,4 @@
-odoo.define('TestModule.testfile', function (require) {
+odoo.define('mm_video.scripts', function (require) {
 
 	​'use strict';
 

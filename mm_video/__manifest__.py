@@ -19,7 +19,7 @@
 
     'assets': {
         'web.assets_backend': [
-            '/mm_video/static/src/js/scripts.js',
+            #'/mm_video/static/src/js/scripts.js',
         ],
         'web.assets_common': [
             
