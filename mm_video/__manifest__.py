@@ -16,12 +16,5 @@
         'views/video.xml',
         
     ],
-
-    #'assets': {
-    #    'web.assets_backend': [
-            #'/mm_video/static/src/js/scripts.js',
-    #    ],
-    #},
-
     'application': True,
 }

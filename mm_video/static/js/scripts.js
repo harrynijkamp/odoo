@@ -1,7 +1,2 @@
-odoo.define('mm_video.scripts', function (require) {
-
-	​'use strict';
-
-	​console.log('=============');
-
-});
+​'use strict';
+​console.log('=============');
