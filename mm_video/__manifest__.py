@@ -11,7 +11,7 @@
     'category': 'Customization',
     'depends': ['base', 'project', 'mail'],
     'data': [
-        #'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/video.xml',
         
     ],
