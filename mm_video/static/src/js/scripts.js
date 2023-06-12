@@ -8,7 +8,7 @@ odoo.define('metafoormedia.video.scripts', function(require) {
 
     //generateVimeoPlayer();
 
-    var url = windows.location.href;
+    var url = window.location.href;
     var page_url = url.replace('#', '?');
     var params = parseURLParams(page_url);
     console.log(params);
