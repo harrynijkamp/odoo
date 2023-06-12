@@ -11,7 +11,6 @@ class Video(models.Model):
 
     project_id = fields.Many2one('project.project', string='Project', tracking=True)
 
-    @api.multi
     def get_player(self):
         for rec in self:
             if rec.vimeo_link != "":
