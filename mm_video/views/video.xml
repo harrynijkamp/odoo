@@ -17,7 +17,8 @@
                             <field name="project_id"/>
                         </group>
                         <group>
-                            <button onclick="generateVimeoPlayer()">Click me</button>
+                            <!--button onclick="generateVimeoPlayer()">Click me</button-->
+                            <button class="btn oe_stat_button" onclick="console.log('TEST')" name="get_guias" type="object" icon="fa-sticky-note-o">
                         </group>
                     </group>
                 </sheet>
