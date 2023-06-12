@@ -9,18 +9,21 @@
                 <div class="oe_title">
                     <h1><field class="text-break" name="name" placeholder="Video name"/></h1>
                 </div>
+                <group>
                     <group>
-                        <group>
-                            <field name="vimeo_link"/>
-                        </group>
-                        <group>
-                            <field name="project_id"/>
-                        </group>
-                        <group>
-                            <!--button onclick="generateVimeoPlayer()">Click me</button-->
-                            <button class="btn oe_stat_button" onclick="console.log('TEST')" name="get_player" type="object" icon="fa-sticky-note-o">BUTTON</button>
-                        </group>
+                        <field name="vimeo_link"/>
                     </group>
+                    <group>
+                        <field name="project_id"/>
+                    </group>
+                    <group>
+                        <!--button onclick="generateVimeoPlayer()">Click me</button-->
+                        <button class="btn oe_stat_button" name="get_player" type="object" icon="fa-sticky-note-o">BUTTON</button>
+                    </group>
+                </group>
+                <div id="metafoormedia_vimeo_embed">
+
+                </div>
                 </sheet>
                 <div class="oe_chatter">
                     <field name="message_follower_ids"/>
