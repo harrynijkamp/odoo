@@ -18,7 +18,7 @@
                         </group>
                         <group>
                             <!--button onclick="generateVimeoPlayer()">Click me</button-->
-                            <button class="btn oe_stat_button" onclick="console.log('TEST')" name="get_guias" type="object" icon="fa-sticky-note-o">BUTTON</button>
+                            <button class="btn oe_stat_button" onclick="console.log('TEST')" type="object" icon="fa-sticky-note-o">BUTTON</button>
                         </group>
                     </group>
                 </sheet>
