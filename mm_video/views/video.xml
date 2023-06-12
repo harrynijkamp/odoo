@@ -16,13 +16,9 @@
                     <group>
                         <field name="project_id"/>
                     </group>
-                    <group>
-                        <!--button onclick="generateVimeoPlayer()">Click me</button-->
-                        <button class="btn oe_stat_button" name="get_player" type="object" icon="fa-sticky-note-o">BUTTON</button>
-                    </group>
                 </group>
                 <div id="metafoormedia_vimeo_embed">
-
+                    <iframe src="https://player.vimeo.com/video/835343248?h=4ec2b7e35e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 </div>
                 </sheet>
                 <div class="oe_chatter">
