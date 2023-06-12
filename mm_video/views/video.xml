@@ -18,7 +18,7 @@
                     </group>
                 </group>
                 <div id="metafoormedia_vimeo_embed">
-                    <iframe src="https://player.vimeo.com/video/835343248?h=4ec2b7e35e" width="640" height="564" frameborder="0"></iframe>
+                    <iframe src="https://player.vimeo.com/video/835343248" width="640" height="564" frameborder="1"></iframe>
                 </div>
                 </sheet>
                 <div class="oe_chatter">
