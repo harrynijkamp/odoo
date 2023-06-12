@@ -8,6 +8,7 @@
                 <sheet>
                 <div class="oe_title">
                     <h1><field class="text-break" name="name" placeholder="Video name"/></h1>
+                    <button onclick="generateVimeoPlayer()">Click me</button>
                 </div>
                     <group>
                         <group>
