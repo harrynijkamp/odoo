@@ -14,3 +14,5 @@ class Video(models.Model):
         for rec in self:
             if rec.vimeo_link == "":
                 raise ValidationError(_("Vimeo link is empty"))
+            else:
+                self.env.generateVimeoPlayer()
