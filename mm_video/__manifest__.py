@@ -22,6 +22,7 @@
         'security/ir.model.access.csv',
         'views/menu.xml',
         'views/video.xml',
+        'views/project_edit.xml',
     ],
     
     'application': True,
