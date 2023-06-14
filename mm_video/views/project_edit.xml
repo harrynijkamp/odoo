@@ -6,7 +6,9 @@
         <field name="inherit_id" ref="project.edit_project"/>
         <field name="arch" type="xml">
             <notebook position="inside">
-                <page string="Videos" name="video"></page>
+                <page string="Videos" name="video">
+                    <field name="video_line_ids"></field>
+                </page>
             </notebook>
         </field>
     </record>
