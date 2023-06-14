@@ -10,7 +10,3 @@ class Video(models.Model):
     vimeo_link = fields.Char(string='Vimeo link', required=True, tracking=True) 
     project_id = fields.Many2one('project.project', string='Project', tracking=True)
 
-    def get_player(self):
-        for rec in self:
-            if rec.vimeo_link == "":
-                raise ValidationError(_("Vimeo link is empty"))

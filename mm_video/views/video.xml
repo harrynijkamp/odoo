@@ -17,9 +17,6 @@
                         <field name="project_id"/>
                     </group>
                 </group>
-                <div id="metafoormedia_vimeo_embed">
-                    <iframe src="https://player.vimeo.com/video/835343248" width="640" height="564" frameborder="1"></iframe>
-                </div>
                 </sheet>
                 <div class="oe_chatter">
                     <field name="message_follower_ids"/>
