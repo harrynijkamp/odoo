@@ -30,7 +30,7 @@
         <field name="name">metafoormedia.video.tree</field>
         <field name="model">metafoormedia.video</field>
         <field name="arch" type="xml">
-            <tree creat="0" delete="0" edit="0">
+            <tree create="0" delete="0" edit="0">
                 <field name="name"/>
                 <field name="vimeo_link" widget="url"/>
                 <field name="project_id"/>
