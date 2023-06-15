@@ -8,5 +8,5 @@ class Video(models.Model):
 
     name = fields.Char(string='Name', required=True, tracking=True)
     vimeo_link = fields.Char(string='Vimeo link', required=True, tracking=True) 
-    project_id = fields.Many2one('project.project', string='Project', tracking=True)
+    project_id = fields.Many2one('project.project', string='Project', required=True, tracking=True)
 
