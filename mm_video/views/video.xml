@@ -34,7 +34,6 @@
                 <field name="name"/>
                 <field name="vimeo_link" widget="url"/>
                 <field name="project_id"/>
-                <field name="partner"/>
             </tree>
         </field>
     </record>
