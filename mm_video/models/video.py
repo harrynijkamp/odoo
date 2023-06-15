@@ -12,6 +12,5 @@ class Video(models.Model):
     partner_id = fields.Char(string='Partner', compute='_compute_partner_id')
 
     def _compute_partner_id(self):
-        #count = self.env['project.project'].search_count([('id', '=', self.project_id)])
-        self.partner_id = str(self.project_id)
+        self.partner_id = self.env['project.project'].browse(23).name
 
