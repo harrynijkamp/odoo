@@ -19,7 +19,12 @@
 
                     <notebook position="inside">
                         <page string="Involvement" name="involvement">
-                            
+                            <field name="partner_id">
+                                <tree>
+                                    <field name="name"/>
+                                    
+                                </tree>
+                            </field>
                         </page>
                     </notebook>
 
