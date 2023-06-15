@@ -14,6 +14,6 @@ class Video(models.Model):
     @api.depends('project_id')
     def _compute_partner(self):
         for record in self:
-            #partner_id = self.env['project.project'].browse(record.project_id).partner_id
-            record.partner = self.env['res.partner'].browse(35).name
+            partner_id = self.env['project.project'].browse(record.project_id).partner_id
+            record.partner = self.env['res.partner'].browse(partner_id).name
 
