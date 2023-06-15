@@ -15,6 +15,6 @@ class Video(models.Model):
     def _compute_partner(self):
         for record in self:
             #partner_id = self.env['project.project'].browse(record.project_id).partner_id
-            partner_id = 35
+            partner_id = 37
             record.partner = self.env['res.partner'].browse(partner_id).name
             
