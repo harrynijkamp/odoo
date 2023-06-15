@@ -11,7 +11,7 @@ class Video(models.Model):
     project_id = fields.Many2one('project.project', string='Project', required=True, tracking=True)
     partner = fields.Char(string='Partner', compute='_compute_partner')
 
-    @api.depens('project_id')
+    @api.depends('project_id')
     def _compute_partner(self):
         for record in self:
             partner_id = self.env['project.project'].browser(record.project_id).partner_id
