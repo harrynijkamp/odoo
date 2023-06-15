@@ -23,6 +23,7 @@
         'views/menu.xml',
         'views/video.xml',
         'views/project_edit.xml',
+        'views/partner_form.xml',
     ],
     
     'application': True,
