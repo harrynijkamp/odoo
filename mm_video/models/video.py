@@ -12,5 +12,6 @@ class Video(models.Model):
     partner_id = fields.Char(string='Partner', compute='_compute_partner_id')
 
     def _compute_partner_id(self):
-        self.partner_id = self.env['project.project'].browse(self.project_id).name
+        for rec in self:
+            rec.partner_id = self.env['project.project'].browse(rec.project_id).name
 
