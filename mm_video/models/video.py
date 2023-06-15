@@ -9,9 +9,11 @@ class Video(models.Model):
     name = fields.Char(string='Name', required=True, tracking=True)
     vimeo_link = fields.Char(string='Vimeo link', required=True, tracking=True) 
     project_id = fields.Many2one('project.project', string='Project', required=True, tracking=True)
-    partner_id = fields.Char(string='Partner', compute='_compute_partner_id')
+    partner = fields.Char(string='Partner', compute='_compute_partner')
 
-    def _compute_partner_id(self):
-        for rec in self:
-            rec.partner_id = self.env['project.project'].browse(rec.project_id).name
+    @api.depens('project_id')
+    def _compute_partner(self):
+        for record in self:
+            partner_id = self.env['project.project'].browser(record.project_id).partner_id
+            record.partner = self.env['res.partner'].browser(partner_id).name
 
