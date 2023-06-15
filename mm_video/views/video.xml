@@ -16,6 +16,13 @@
                     <group>
                         <field name="project_id"/>
                     </group>
+
+                    <notebook position="inside">
+                        <page string="Involvement" name="involvement">
+                            
+                        </page>
+                    </notebook>
+
                 </group>
                 </sheet>
                 <div class="oe_chatter">
