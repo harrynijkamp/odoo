@@ -9,9 +9,9 @@ class Video(models.Model):
     name = fields.Char(string='Name', required=True, tracking=True)
     vimeo_link = fields.Char(string='Vimeo link', required=True, tracking=True) 
     project_id = fields.Many2one('project.project', string='Project', required=True, tracking=True)
-    partner_id = fields.Integer(string='Partner', compute='_compute_partner_id')
+    partner_id = fields.Char(string='Partner', compute='_compute_partner_id')
 
     def _compute_partner_id(self):
         #count = self.env['project.project'].search_count([('id', '=', self.project_id)])
-        self.partner_id = self.project_id
+        self.partner_id = str(self.project_id)
 
