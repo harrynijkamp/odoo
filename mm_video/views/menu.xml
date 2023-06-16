@@ -10,6 +10,4 @@
     <menuitem id="menu_video_root" name="Videos"
         action="action_metafoormedia_video" sequence="10"/>
     
-    
-    
 </odoo>
