@@ -6,12 +6,12 @@
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
             <notebook position="inside">
-                <page string="Involved" name="involvement">
+                <page string="Video Involvement" name="involvement">
                     <field name="video_ids">
-                        <tree create="0" edit="0" delete="0">
+                        <tree create="0" delete="0" edit="0">
                             <field name="name"/>
                             <field name="vimeo_link" widget="url"/>
-                            <field name="project_id"/>
+                            
                         </tree>
                     </field>
                 </page>
@@ -19,3 +19,4 @@
         </field>
     </record>
 </odoo>
+
