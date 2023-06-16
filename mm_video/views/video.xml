@@ -50,11 +50,6 @@
         </field>
     </record>
 
-    <record id="action_metafoormedia_video" model="ir.actions.act_window">
-        <field name="name">Videos</field>
-        <field name="type">ir.actions.act_window</field>
-        <field name="res_model">metafoormedia.video</field>
-        <field name="view_mode">tree,form</field>
-    </record>
+    
 
 </odoo>
