@@ -7,9 +7,9 @@
         <field name="arch" type="xml">
             <notebook position="inside">
                 <page string="Involved" name="involvement">
-                    <!--field name="video_involvement_line_ids">
+                    <field name="video_ids">
                         
-                    </field-->
+                    </field>
                 </page>
             </notebook>
         </field>
