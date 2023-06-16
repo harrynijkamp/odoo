@@ -9,13 +9,15 @@
                 <page string="Video Involvement" name="involvement">
                     <field name="video_ids">
                         <tree editable="bottom">
-                            <field name="name"/>
-                            <field name="vimeo_link" widget="url"/>
-                            <field name="project_id"/>
+                            <xpath expr="/tree" position="attributes">
+                                <field name="name"/>
+                                <field name="vimeo_link" widget="url"/>
+                                <field name="project_id"/>
+                                <attribute name="editable"/>
+                            </xpath>
+                            
                         </tree>
-                        <xpath expr="/tree" position="attributes">
-                            <attribute name="editable"/>
-                        </xpath>
+                        
                     </field>
                 </page>
             </notebook>
