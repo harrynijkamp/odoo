@@ -19,7 +19,7 @@
 
                     <notebook position="inside">
                         <page string="Involvement" name="involvement">
-                            <field name="partner_id">
+                            <field name="partner_ids">
                                 <tree>
                                     <field name="name"/>
                                     <field name="category_id" widget="many2many_tags" options="{'color_field': 'color', 'no_create_edit': True}"/>
