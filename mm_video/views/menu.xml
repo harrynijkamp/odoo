@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem id="menu_video_root" name="Video's" parent="" 
+    <menuitem id="menu_video_root" name="Videos"
         action="action_metafoormedia_video" sequence="10"/>
     
     
