@@ -16,6 +16,18 @@
                     <group>
                         <field name="project_id"/>
                     </group>
+
+                    <notebook position="inside">
+                        <page string="Involvement" name="involvement">
+                            <field name="partner_ids">
+                                <tree>
+                                    <field name="name"/>
+                                    <field name="category_id" widget="many2many_tags" options="{'color_field': 'color', 'no_create_edit': True}"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+
                 </group>
                 </sheet>
                 <div class="oe_chatter">
@@ -38,11 +50,6 @@
         </field>
     </record>
 
-    <record id="action_metafoormedia_video" model="ir.actions.act_window">
-        <field name="name">Videos</field>
-        <field name="type">ir.actions.act_window</field>
-        <field name="res_model">metafoormedia.video</field>
-        <field name="view_mode">tree,form</field>
-    </record>
+    
 
 </odoo>
