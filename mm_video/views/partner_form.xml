@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="partner_form_inherit" model="ir.ui.view">
+        <field name="name">res.partner.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Video Involvement" name="involvement">
+                    <field name="video_ids">
+                        <tree editable="bottom">
+                            <field name="name"/>
+                            <field name="vimeo_link" widget="url"/>
+                            <field name="project_id"/>
+                        </tree>
+                    </field>
+                </page>
+            </notebook>
+        </field>
+    </record>
+</odoo>
+
