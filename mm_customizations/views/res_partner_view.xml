@@ -4,7 +4,7 @@
         <record id="view_res_partner_filter" model="ir.ui.view">
             <field name="name">res.partner.filter</field>
             <field name="model">res.partner</field>
-            <field name="inherit_id" ref="base.view_partner_tree" />
+            <field name="inherit_id" ref="base.view_partner_filter" />
             <field name="arch" type="xml">
                 <xpath expr="//search" position="inside">
                     <filter string="Tag Filter" name="tag_filter" domain="[]" help="Filter contacts by tags">
