@@ -12,7 +12,8 @@
     'depends': ['base', 'mail'],
     
     'data': [
-        'views/views.xml'
+        'views/views.xml',
+        'views/res_partner_view.xml'
     ],
     
     'application': True,
