@@ -1,7 +1,11 @@
 from odoo import models, fields
 
-class BasePartner (models.Model):
+class ResPartner (models.Model):
     _inherit = "res.partner"
     _inherit = ["mail.thread"]
 
-    gender = fields.Selection([('male', 'Male'),('female', 'Female')], string='Gender', tracking=True)
+    my_field = fields.Selection([
+        ('value1', 'Label 1'),
+        ('value2', 'Label 2'),
+        ('value3', 'Label 3')
+    ], string='My Field', tracking=True)

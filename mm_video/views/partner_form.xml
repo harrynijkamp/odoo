@@ -5,10 +5,6 @@
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
-            <field name="function" position="before">
-                <field name="my_field"/>
-            </field>
-
             <notebook position="inside">
                 <page string="Video Involvement" name="involvement">
                     <field name="video_ids">

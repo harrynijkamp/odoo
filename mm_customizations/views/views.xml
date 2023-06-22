@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="res_partner_form_view_inherit" model="ir.ui.view">
-        <field name="name">res.partner.inherit</field>
+    <record model="ir.ui.view" id="res_partner_form_view_inherit">
+        <field name="name">res.partner.form.inherit</field>
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//form" position="inside">
-                <group>
-                    <field name="gender"/>
-                </group>
-            </xpath>
+            <field name="function" position="before">
+                <field name="my_field"/>
+            </field>
         </field>
     </record>
 </odoo>
