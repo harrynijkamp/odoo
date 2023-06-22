@@ -6,7 +6,7 @@
         <field name="arch" type="xml">
             <xpath expr="//form" position="inside">
                 <group>
-                    <field name="gender">
+                    <field name="gender"/>
                 </group>
             </xpath>
         </field>
