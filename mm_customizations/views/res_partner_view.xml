@@ -7,7 +7,7 @@
             <field name="inherit_id" ref="base.view_res_partner_filter" />
             <field name="arch" type="xml">
                 <xpath expr="//search" position="inside">
-                    <filter string="Voiceover" name="voiceover_filter" domain="[('category_id', 'ilike', 'Voiceover')]"/>
+                    <filter string="Voiceover (Male)" name="voiceover_male_filter" domain="['&', ('category_id', 'ilike', 'Voiceover'), ('gender', '=', 'male')]"/>
                 </xpath>
             </field>
         </record>
