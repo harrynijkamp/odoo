@@ -12,7 +12,7 @@
     'depends': ['base', 'mail'],
     
     'data': [
-        
+        'views/views.xml'
     ],
     
     'application': True,
