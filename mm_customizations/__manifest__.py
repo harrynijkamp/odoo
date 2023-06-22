@@ -2,7 +2,7 @@
     'name': 'Metafoor Media Video',
     'version': '0.0.1',
     'summary': 'Metafoor Media Customizations',
-    'sequence': 4,
+    'sequence': 5,
     'description': 'Several customizations on Odoo to improve the Business Case off Metafoor Media.',
 
     'author': 'Harry Nijkamp',
