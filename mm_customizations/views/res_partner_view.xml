@@ -7,7 +7,7 @@
             <field name="inherit_id" ref="base.view_res_partner_filter" />
             <field name="arch" type="xml">
                 <xpath expr="//search" position="inside">
-                    <filter string="Voiceover" name="voiceover_filter" domain="[('category_id', 'ilike', 'Voiceover')]" help="Filter contacts by tags" position="-10">
+                    <filter string="Voiceover" name="voiceover_filter" domain="[('category_id', 'ilike', 'Voiceover')]" help="Filter contacts by tags">
                         <field name="category_id" widget="many2many_tags" placeholder="Select tags..."/>
                     </filter>
                 </xpath>
