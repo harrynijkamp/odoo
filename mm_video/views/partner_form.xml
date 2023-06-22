@@ -5,6 +5,11 @@
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <group>
+                    <field name="gender"/>
+                </group>
+            </xpath>
             <notebook position="inside">
                 <page string="Video Involvement" name="involvement">
                     <field name="video_ids">

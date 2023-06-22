@@ -4,3 +4,4 @@ class Partner (models.Model):
     _inherit = "res.partner"
 
     video_ids = fields.Many2many('metafoormedia.video', 'video_partner_rel', 'video_id', 'partner_id', string='Video Involvement')
+    gender = fields.Selection([('male', 'Male'),('female', 'Female')], string='Gender', tracking=True)
