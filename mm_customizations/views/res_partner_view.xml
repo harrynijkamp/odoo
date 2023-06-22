@@ -13,8 +13,8 @@
                     <separator/>
                     <filter string="Nederlands" name="dutch_filter" domain="[('category_id', 'ilike', 'Nederlands')]"/>
                     <filter string="Engels" name="english_filter" domain="[('category_id', 'ilike', 'Engels')]"/>
-                    <filter string="Fries" name="frisian_filter" domain="[('category_id', 'ilike', 'Frisian')]"/>
-                    <filter string="German" name="german_filter" domain="[('category_id', 'ilike', 'German')]"/>
+                    <filter string="Fries" name="frisian_filter" domain="[('category_id', 'ilike', 'Fries')]"/>
+                    <filter string="German" name="german_filter" domain="[('category_id', 'ilike', 'Duits')]"/>
                 </xpath>
             </field>
         </record>
