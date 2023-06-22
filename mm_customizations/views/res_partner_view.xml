@@ -8,6 +8,12 @@
             <field name="arch" type="xml">
                 <xpath expr="//search" position="inside">
                     <filter string="Voiceover (Male)" name="voiceover_male_filter" domain="[('category_id', 'ilike', 'Voiceover'), ('gender', '=', 'male')]"/>
+                    <filter string="Voiceover (Female)" name="voiceover_female_filter" domain="[('category_id', 'ilike', 'Voiceover'), ('gender', '=', 'female')]"/>
+                    <separator/>
+                    <filter string="Nederlands" name="dutch_filter" domain="[('category_id', 'ilike', 'Nederlands')]"/>
+                    <filter string="Engels" name="english_filter" domain="[('category_id', 'ilike', 'Engels')]"/>
+                    <filter string="Fries" name="frisian_filter" domain="[('category_id', 'ilike', 'Frisian')]"/>
+                    <filter string="German" name="german_filter" domain="[('category_id', 'ilike', 'German')]"/>
                 </xpath>
             </field>
         </record>
