@@ -10,8 +10,6 @@
     'website': 'www.metafoormedia.nl',
     'category': 'Customization',
     'depends': ['base', 'mail'],
-    
-    'icon': 'static/description/icon.png',
 
     'data': [
         'views/views.xml',
