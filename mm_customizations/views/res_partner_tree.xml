@@ -17,9 +17,14 @@
                     <field name="phone" invisible="1" />
                 </xpath>
 
-                <!-- Hide the "Sales Person" field -->
+                <!-- Hide the "Salesperson" field -->
                 <xpath expr="//field[@name='user_id']" position="replace">
                     <field name="user_id" invisible="1" />
+                </xpath>
+
+                <!-- Hide the "Activity Ids" field -->
+                <xpath expr="//field[@name='activity_ids']" position="replace">
+                    <field name="activity_ids" invisible="1" />
                 </xpath>
 
             </field>
