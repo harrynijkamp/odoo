@@ -12,6 +12,11 @@
                     <field name="mobile" />
                 </xpath>
                 
+                <!-- Insert the "Tags" field -->
+                <xpath expr="//field[@name='mobile']" position="after">
+                    <field name="category_id" widget="many2many_tags" string="Tags"/>
+                </xpath>
+                
                 <!-- Hide the "Phone" field -->
                 <xpath expr="//field[@name='phone']" position="replace">
                     <field name="phone" invisible="1" />
@@ -36,8 +41,6 @@
                 <xpath expr="//field[@name='country_id']" position="replace">
                     <field name="country_id" invisible="1" />
                 </xpath>
-
-                <field name="category_id" widget="many2many_tags" string="Tags"/>
 
             </field>
         </record>
