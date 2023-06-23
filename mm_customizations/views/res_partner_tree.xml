@@ -27,6 +27,18 @@
                     <field name="activity_ids" invisible="1" />
                 </xpath>
 
+                <!-- Hide the "City" field -->
+                <xpath expr="//field[@name='city']" position="replace">
+                    <field name="city" invisible="1" />
+                </xpath>
+
+                <!-- Hide the "Country" field -->
+                <xpath expr="//field[@name='country_id']" position="replace">
+                    <field name="country_id" invisible="1" />
+                </xpath>
+
+                <field name="category_id" widget="many2many_tags" string="Tags"/>
+
             </field>
         </record>
     </data>
