@@ -6,7 +6,8 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_tree" />
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='email']" position="before">
+                <field name="phone" modifiers='{"invisible": true}'/>
+                <xpath expr="//field[@name='email']" position="after">
                     <field name="mobile" />
                 </xpath>
             </field>
