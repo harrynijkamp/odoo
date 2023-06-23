@@ -11,6 +11,8 @@
     'category': 'Customization',
     'depends': ['base', 'mail'],
     
+    'icon': 'static/description/icon.png',
+
     'data': [
         'views/views.xml',
         'views/res_partner_tree.xml',
