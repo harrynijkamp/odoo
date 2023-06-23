@@ -6,12 +6,17 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_tree" />
             <field name="arch" type="xml">
-                <field name="phone" position="replace">
-                    <field name="phone" invisible="1" />
-                </field>
+                
+                <!-- Insert the "Mobile" field -->
                 <xpath expr="//field[@name='email']" position="after">
                     <field name="mobile" />
                 </xpath>
+                
+                <!-- Hide the "Phone" field -->
+                <xpath expr="//field[@name='phone']" position="replace">
+                    <field name="phone" invisible="1" />
+                </xpath>
+
             </field>
         </record>
     </data>
