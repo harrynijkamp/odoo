@@ -1,6 +1,6 @@
 {
     'name': 'Metafoor Media Video',
-    'version': '0.0.1',
+    'version': '0.1.0',
     'summary': 'Metafoor Media Customizations',
     'sequence': 5,
     'description': 'Several customizations on Odoo to improve the Business Case off Metafoor Media.',
