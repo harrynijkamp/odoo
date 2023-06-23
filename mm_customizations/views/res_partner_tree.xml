@@ -7,7 +7,7 @@
             <field name="inherit_id" ref="base.view_partner_tree" />
             <field name="arch" type="xml">
                 <tree>
-                    <field name="mobile" position="2"/>
+                    <field name="mobile" pposition="after=name"/>
                 </tree>
             </field>
         </record>
