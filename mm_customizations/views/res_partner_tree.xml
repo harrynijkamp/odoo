@@ -49,17 +49,5 @@
 
             </field>
         </record>
-
-        <record id="view_res_partner_tree_default" model="ir.ui.view">
-            <field name="name">res.partner.tree</field>
-            <field name="model">res.partner</field>
-            <field name="inherit_id" ref="base.view_partner_tree"/>
-            <field name="arch" type="xml">
-                <tree>
-                    <!-- Set the tree view as default -->
-                    <field name="default_view" eval="True"/>
-                </tree>
-            </field>
-        </record>
     </data>
 </odoo>
