@@ -54,7 +54,7 @@
         <record id="action_res_partner_tree" model="ir.actions.act_window">
             <field name="name">Contacts</field>
             <field name="res_model">res.partner</field>
-            <field name="view_mode">tree,form,kanban</field>
+            <field name="view_mode">tree</field>
             <!-- Add more view modes as needed -->
         </record>
     </data>
