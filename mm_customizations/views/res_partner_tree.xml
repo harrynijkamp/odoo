@@ -12,8 +12,13 @@
                     <field name="mobile" />
                 </xpath>
                 
-                <!-- Insert the "Tags" field -->
+                <!-- Insert the "Gender" field -->
                 <xpath expr="//field[@name='mobile']" position="after">
+                    <field name="gender" string="Gender"/>
+                </xpath>
+
+                <!-- Insert the "Tags" field -->
+                <xpath expr="//field[@name='gender']" position="after">
                     <field name="category_id" widget="many2many_tags" string="Tags"/>
                 </xpath>
                 
