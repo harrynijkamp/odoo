@@ -6,7 +6,7 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_tree" />
             <field name="arch" type="xml">
-                
+                <tree>
                 <!-- Insert the "Mobile" field -->
                 <xpath expr="//field[@name='email']" position="after">
                     <field name="mobile" />
@@ -46,9 +46,7 @@
                 <xpath expr="//field[@name='country_id']" position="replace">
                     <field name="country_id" invisible="1" />
                 </xpath>
-
-                <field name="default_view" eval="True"/>
-
+                </tree>
             </field>
         </record>
     </data>
