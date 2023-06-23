@@ -47,6 +47,8 @@
                     <field name="country_id" invisible="1" />
                 </xpath>
 
+                <field name="default_view" eval="True"/>
+
             </field>
         </record>
     </data>
